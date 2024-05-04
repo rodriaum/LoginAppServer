@@ -18,8 +18,8 @@ namespace LoginAppServer
             while (option != 3)
             {
                 Console.WriteLine("Menu:");
-                Console.WriteLine(" 1. Iniciar banco de dados.");
-                Console.WriteLine(" 2. Criar tabelas.");
+                Console.WriteLine(" 1. Criar banco de dados.");
+                Console.WriteLine(" 2. Criar tabelas e colunas.");
                 Console.WriteLine(" 3. Sair\n");
 
                 Console.WriteLine("Insira a sua opção:");

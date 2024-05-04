@@ -1,10 +1,10 @@
-# Aplicação de Servidor SQL
+# Aplicação de Tarefas SQL
 
-Esta é uma aplicação que executa um servidor SQL. O servidor SQL atua como a espinha dorsal do sistema, armazenando e gerenciando dados de uma [aplicação de login](https://github.com/rodriaum/login).
+Esta é uma aplicação que realiza operações SQL. Ela é responsável por criar o banco de dados e as tabelas necessárias para uma [aplicação de login](https://github.com/rodriaum/login), caso ainda não existam e o usuário assim o deseje.
 
 ## Autenticação de Usuários
 
-Esta [aplicação de login](https://github.com/rodriaum/login) utiliza os dados armazenados no servidor SQL para autenticar os usuários, garantindo que apenas usuários autorizados tenham acesso.
+A [aplicação de login](https://github.com/rodriaum/login) faz uso dos dados armazenados no banco de dados SQL para autenticar os usuários. Isso garante que apenas usuários devidamente autorizados possam ter acesso.
 
 ## Licença
 
