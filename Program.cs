@@ -13,6 +13,7 @@ namespace LoginAppServer
         static void Menu()
         {
             MySqlConnection? connection = null;
+
             int option = -1;
 
             while (option != 3)
