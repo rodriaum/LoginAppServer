@@ -6,6 +6,8 @@ namespace LoginAppServer.backend.resource
     {
         public static readonly SqlColumn LOGIN_EMAIL = new SqlColumn(SqlTable.LOGIN, "email", "VARCHAR(255)");
         public static readonly SqlColumn LOGIN_PASSWORD = new SqlColumn(SqlTable.LOGIN, "password", "VARCHAR(255)");
+        public static readonly SqlColumn LOGIN_CODE = new SqlColumn(SqlTable.LOGIN, "code", "VARCHAR(6)");
+        public static readonly SqlColumn LOGIN_CHECKED = new SqlColumn(SqlTable.LOGIN, "checked", "TINYINT(1)");
 
         private SqlTable table;
         private string columnName;
